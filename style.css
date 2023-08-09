@@ -1,0 +1,58 @@
+
+body{
+background: url(tst.jpg);
+    margin-left: 45%;
+    margin-top: 10%;
+    background-color: rgb(61, 11, 107);
+    color: bisque;
+}
+
+#vermelho {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(221, 31, 31);
+    border-radius: 100px;
+}
+
+#verde {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(50, 228, 50);
+    border-radius: 100px;
+}
+
+#amarelo {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 350px;
+    background-color: black;
+    border-radius: 25px;
+
+}
+
+button {
+    background-color: blue;
+    color: bisque;
+    width: 70px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+
+.opc {
+    opacity: 0.2;
+}
+
+button:hover {
+    background-color: rgb(10, 10, 10);
+}
